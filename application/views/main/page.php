@@ -13,7 +13,7 @@
 	<!-- breadcrumb -->
 	<div class="container">
 		<div class="bread-crumb flex-w p-l-25 p-r-15 p-t-30 p-lr-0-lg m-b-30">
-			<a href="index.html" class="text-primary">
+			<a href="<?= base_url(); ?>" class="text-gold">
 				Home
 				<i class="fa fa-angle-right m-l-9 m-r-10" aria-hidden="true"></i>
 			</a>
@@ -27,8 +27,8 @@
 
 	<!-- Page Content -->
 	<div class="container">
-		<div class="m-b-40 text-center font-medium text-primary">
-			<h1><?=$res->nama?></h1>
+		<div class="m-b-40 text-center font-medium text-gold">
+			<h1><b><?=$res->nama?></b></h1>
 		</div>
         <ol><?=$res->konten?></ol>
 		<div class="m-b-80"></div>

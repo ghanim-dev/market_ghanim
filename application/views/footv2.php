@@ -108,7 +108,8 @@
 
 		<div class="t-center p-l-15 p-r-15">
 			<div class="t-center p-t-20">
-				Copyright © <?=date('Y');?> <?=ucwords(strtolower($set->nama))?>
+				<!-- Copyright © <?=date('Y');?> <?=ucwords(strtolower($set->nama))?> -->
+				Copyright © <?=date('Y');?> &nbsp; <a href="<?= base_url('page/Tentang-Kami'); ?>">PT. GHANIM SUKSES SENTOSA</a>
 				<?php if($this->func->demo() == true){ ?> | made with <i class="fas fa-heart text-danger"></i> by Masbil</a><?php } ?>
 			</div>
 		</div>

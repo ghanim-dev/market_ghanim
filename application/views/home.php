@@ -27,7 +27,7 @@
 	<section class="banner p-t-40 p-b-40 m-b-40">
 		<div class="container">
 			<div class="sec-title p-b-30">
-				<h2 class="t-center">
+				<h2 class="t-center text-gold">
 					Kategori Produk
 				</h2>
 			</div>
@@ -54,7 +54,7 @@
 		<div class="container center">
 			<div class="row">
 				<div class="col-md-8">
-					<h2 class="font-bold text-dark2">Belanja kini lebih mudah</h2>
+					<h2 class="font-bold text-dark">Belanja kini lebih mudah</h2>
 					<h5>Langsung dari handphone Anda, download aplikasinya sekarang!</h5>
 				</div>
 				<div class="col-md-4">
@@ -104,7 +104,7 @@
 	<section class="newproduct p-t-40 p-b-40">
 		<div class="container">
 			<div class="sec-title p-b-60">
-				<h2 class="t-center">
+				<h2 class="t-center text-gold">
 					Daftar Produk
 				</h2>
 			</div>
@@ -201,7 +201,7 @@
 
 		</div>
 		<div class="t-center m-t-20">
-			<a href="<?=site_url("shop")?>" class="btn btn-lg btn-primary">Lihat Semua Produk <i class="fas fa-chevron-circle-right"></i></a>
+			<a href="<?=site_url("shop")?>" class="btn btn-lg btn-gold">Lihat Semua Produk <i class="fas fa-chevron-circle-right"></i></a>
 		</div>
 	</section>
 
@@ -209,7 +209,7 @@
 	<section class="testismoni p-t-40 p-b-40 m-b-40">
 		<div class="container">
 			<div class="sec-title p-b-30">
-				<h2 class="t-center">
+				<h2 class="t-center  text-gold">
 					Testimoni Pelanggan
 				</h2>
 			</div>
@@ -245,7 +245,7 @@
 	<!-- Blog Terbaru -->
 	<div class="container p-t-10 p-b-40">
 		<div class="sec-title p-t-30 p-b-40">
-			<h2 class="t-center"><b>Blog Terbaru</b></h2>
+			<h2 class="t-center text-gold"><b>Blog Terbaru</b></h2>
 		</div>
 		<div class="row m-t-20 m-b-30" style="justify-content:center;">
 			<?php
@@ -286,7 +286,7 @@
 			?>
 		</div>
 		<div class="t-center m-t-20 m-b-30">
-			<a href="<?=site_url("blog")?>" class="btn btn-lg btn-primary">Lihat Semua Postingan <i class="fas fa-chevron-circle-right"></i></a>
+			<a href="<?=site_url("blog")?>" class="btn btn-lg btn-gold">Lihat Semua Postingan <i class="fas fa-chevron-circle-right"></i></a>
 		</div>
 	</div>
 

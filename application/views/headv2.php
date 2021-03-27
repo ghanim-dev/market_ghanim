@@ -22,7 +22,7 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 	<meta name="google-site-verification" content="G35UyHn6lX6mRzyFws0NJYYxHQp_aejuAFbagRKCL7c" />
 	<meta name="description" content="<?=$desc?>" />
 	<!--  Social tags      -->
-	<meta name="keywords" content="Aplikasi toko online <?=$nama?>">
+	<meta name="keywords" content="PT Ghanim Sukses Sentosa, PT. Ghanim, Toko Online, Ghanim Sukses Sentosa <?=$nama?>">
 	<meta name="description" content="<?=$desc?>">
 	<!-- Schema.org markup for Google+ -->
 	<meta itemprop="name" content="<?=$nama?>">
@@ -30,10 +30,10 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 	<meta itemprop="image" content="<?=$img?>">
 	<!-- Twitter Card data -->
 	<meta name="twitter:card" content="product">
-	<meta name="twitter:site" content="@mycodingxd">
+	<meta name="twitter:site" content="">
 	<meta name="twitter:title" content="<?=$nama?>">
 	<meta name="twitter:description" content="<?=$desc?>">
-	<meta name="twitter:creator" content="@mycodingxd">
+	<meta name="twitter:creator" content="">
 	<meta name="twitter:image" content="<?=$img?>">
 	<!-- Open Graph data -->
 	<meta property="fb:app_id" content="<?=$set->fb_pixel?>">
@@ -155,17 +155,17 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
 						<li class="nav-item active">
-							<a class="nav-link" href="<?=site_url()?>"><i class="fas fa-home text-primary"></i> Home</a>
+							<a class="nav-link" href="<?=site_url()?>"><i class="fas fa-home text-dark"></i> Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=site_url("shop")?>"><i class="fas fa-shopping-cart text-primary"></i> Produk</a>
+							<a class="nav-link" href="<?=site_url("shop")?>"><i class="fas fa-shopping-cart text-dark"></i> Produk</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=site_url("blog")?>"><i class="fas fa-comment-dots text-primary"></i> Blog</a>
+							<a class="nav-link" href="<?=site_url("blog")?>"><i class="fas fa-comment-dots text-dark"></i> Blog</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fas fa-info-circle text-primary"></i> Informasi
+								<i class="fas fa-info-circle text-dark"></i> Informasi
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<?php 
@@ -195,7 +195,7 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 						<?php if($this->func->cekLogin() != true){ ?>
 							<li class="nav-item">
-								<a class="btn btn-primary" href="<?=site_url("home/signin")?>">
+								<a class="btn btn-dark" href="<?=site_url("home/signin")?>">
 									<i class="fas fa-sign-in-alt"></i> Masuk / Daftar
 								</a>
 							</li>

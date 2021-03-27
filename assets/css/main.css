@@ -81,7 +81,7 @@ button{
     -moz-border-radius: 12px;
     border-radius: 12px;
     margin-right: 24px;
-    background-image: radial-gradient(circle farthest-corner at 10% 90%, rgba(239,249,251,0.63) 0.1%, #9ED1FA 90.1%);
+    background-image: radial-gradient(circle farthest-corner at 10% 90%, rgba(239,249,251,0.63) 0.1%, #eec938 90.1%);
 }
 .testimoni-wrap{
     display: flex;
@@ -289,7 +289,7 @@ button{
     -webkit-text-fill-color: transparent;
 }
 .search-product{
-    border: 2px solid #0D8BF2;
+    border: 2px solid #EEC938;
     padding: 18px 32px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -324,7 +324,7 @@ button{
 
 /* IKLAN */
 .playstore-section{
-    background-image: radial-gradient(circle 465px at -15% -25%, #0D8BF2 0%, #9ED1FA 100%);
+    background-image: radial-gradient(circle 465px at -15% -25%, #000000 0%, #EEC938 100%);
     padding: 20px 0;
     box-shadow: 0px 0px 24px #d0d1d4;
 }
@@ -412,13 +412,14 @@ button{
 }
 .pagination .item.active,
 .pagination .item:hover{
-    background-image: linear-gradient( 0deg,   rgb(0, 150, 163) 0%,   rgb(0, 150, 163) 100% );
+    /* background-image: linear-gradient( 0deg,   rgb(0, 150, 163) 0%,   rgb(0, 150, 163) 100% ); */
+    background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%);
     text-decoration: none;
 }
 
 /* NAVBAR */
 .navbar{
-    background: radial-gradient(circle 465px at -15% -25%, #0D8BF2 0%, #9ED1FA 100%);
+    background: radial-gradient(circle 465px at -15% -25%, #000000 10%, #eec938 100%);
     box-shadow: 0px 0px 2px #bebcbc;
 }
 .navbar-brand{
@@ -436,7 +437,7 @@ button{
     color: #333333;
 }
 .dropdown-item:hover{
-    background:#62e7fc;
+    background:#EEC938;
 }
 .navbar-nav .nav-item .fa-heart,
 .navbar-nav .nav-item .fa-shopping-basket{
@@ -459,17 +460,28 @@ button{
 .btn-primary{
     background-image: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
 }
+.btn-gold{
+    background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%);
+}
 .badge-primary, .bg-primary, .hov-primary:hover, .btn-primary:hover{
     background-image: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
 }
 a.text-primary:hover, .text-hov-primary:hover, .text-primary{
-    background: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
+    /* background: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, #53524d 88.8% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 a.text-primary{
-    background: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
+    /* background: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, #53524d 88.8% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -478,10 +490,11 @@ a.text-primary{
     background-image: linear-gradient(90.9deg, #33CC33 0.5%, #4CAF50 99.7%);
 }
 .badge-success, .bg-success, .hov-success:hover, .btn-success:hover{
-    background-image: linear-gradient(91.9deg, #0D8BF2 0.5%, #03C8dA 99.7%);
+    background-image: linear-gradient(91.9deg,  #3fad3f 0.5%, #49884b 99.7%);
 }
 a.text-success:hover, .text-hov-success:hover, .text-success{
-    background: linear-gradient(91.9deg, #0D8BF2 0.5%, #03C8dA 99.7%);
+    /* background: linear-gradient(91.9deg, #0D8BF2 0.5%, #03C8dA 99.7%); */
+    background: linear-gradient( 89.7deg,  #eec938 -10.7%, #000000 88.8% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -531,10 +544,11 @@ a.text-warning,.item-rating:hover{
     -webkit-text-fill-color: transparent;
 }
 .btn-info{
-    background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(3, 200, 218) 90%);
+    /* background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(3, 200, 218) 90%); */
+    background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%);
 }
 .badge-info, .bg-info, .hov-info:hover, .btn-info:hover{
-    background-image: linear-gradient( 91.9deg,  rgb(0, 150, 163) 0%, rgb(25, 201, 218) 90% );
+    background-image: linear-gradient( 91.9deg,  #33CC33 0.5%, #4CAF50 99.7%);
 }
 a.text-info:hover, .text-hov-info:hover, .text-info{
     background: linear-gradient( 91.9deg,  rgb(0, 150, 163) 0%, rgb(25, 201, 218) 90% );
@@ -561,7 +575,13 @@ a.text-info{
     -webkit-text-fill-color: transparent;
 }
 .text-dark{
-    background: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, rgba(53,92,125,1) 88.8% );
+    background: linear-gradient( 89.7deg,  rgba(0,0,0,1) -10.7%, #53524d 88.8% );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text-gold{
+    background: linear-gradient( 89.7deg,  #eec938 -10.7%, #000000 88.8% );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -654,13 +674,13 @@ a.text-info{
 /* HEADER & FOOT */
 .bg-head,
 .bg-foot{
-    background-color: #9ED1FA;
+    background-color: #caac31;
 }
 .bg-head-gradient{
     background-image: linear-gradient( 180deg,  rgba(181,239,249,1) 0%, rgb(242, 243, 248) 100% );
 }
 .bg-foot-gradient{
-    background-image: linear-gradient(0deg, #9ED1FA 0%, #F5F5F5 100%);
+    background-image: linear-gradient(0deg, #caac31 0%, #F5F5F5 100%);
 }
 .foot-title{
     text-transform: uppercase;
