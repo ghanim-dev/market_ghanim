@@ -419,7 +419,7 @@ button{
 
 /* NAVBAR */
 .navbar{
-    background: radial-gradient(circle 465px at -15% -25%, #000000 10%, #eec938 100%);
+    background: radial-gradient(circle 465px at -15% -25%, #000000 10%, #1748c0 100%);
     box-shadow: 0px 0px 2px #bebcbc;
 }
 .navbar-brand{
@@ -433,8 +433,8 @@ button{
     align-items: center;
 }
 .navbar-nav .nav-item.active .nav-link,
-.navbar-nav .nav-item:hover .nav-link{
-    color: #333333;
+.navbar-nav .nav-item:hover .nav-link .nav-item{
+    color: #dbddd8;
 }
 .dropdown-item:hover{
     background:#EEC938;

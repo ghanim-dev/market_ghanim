@@ -61,7 +61,7 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 
 	<!-- GENERATED CUSTOM COLOR -->
 	<style rel="stylesheet">
-		/*.colorw{
+		.colorw{
 			color: #fff;
 		}
 		a:hover,
@@ -130,7 +130,7 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 		.block2-overlay{ cursor: pointer;}
 		.blog:hover .titel{
 			color: <?=$set->color1?>;
-		}*/
+		}
 	</style>
 </head>
 <body>
@@ -154,18 +154,18 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 
 				<div class="collapse navbar-collapse" id="navbarToggler">
 					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="<?=site_url()?>"><i class="fas fa-home text-dark"></i> Home</a>
+						<li class="nav-item">
+							<a class="nav-link" href="<?=site_url()?>"><i class="fas fa-home"></i> Home</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=site_url("shop")?>"><i class="fas fa-shopping-cart text-dark"></i> Produk</a>
+							<a class="nav-link" href="<?=site_url("shop")?>"><i class="fas fa-shopping-cart"></i> Produk</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="<?=site_url("blog")?>"><i class="fas fa-comment-dots text-dark"></i> Blog</a>
+							<a class="nav-link" href="<?=site_url("blog")?>"><i class="fas fa-comment-dots"></i> Blog</a>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								<i class="fas fa-info-circle text-dark"></i> Informasi
+								<i class="fas fa-info-circle"></i> Informasi
 							</a>
 							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<?php 
@@ -195,7 +195,7 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
 						<?php if($this->func->cekLogin() != true){ ?>
 							<li class="nav-item">
-								<a class="btn btn-dark" href="<?=site_url("home/signin")?>">
+								<a class="btn btn-primary" href="<?=site_url("home/signin")?>">
 									<i class="fas fa-sign-in-alt"></i> Masuk / Daftar
 								</a>
 							</li>
