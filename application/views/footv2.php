@@ -26,7 +26,7 @@
 					Sosial Media
 				</h4>
 				<div class="">
-					<a target="_blank" onclick="fbq('track','Contact')" href="https://wa.me/<?=$this->func->getRandomWasap()?>/?text=Halo%20admin%20*<?=$this->func->getSetting("nama")?>*" class="btn btn-success btn-block"><i class="fab fa-whatsapp"></i> Hubungi Admin</a>&nbsp;
+					<a target="_blank" onclick="fbq('track','Contact')" href="https://wa.me/<?=$this->func->getRandomWasap()?>/?text=Halo%20admin%20*<?=$this->func->getSetting("nama")?>*" class="btn btn-primary btn-block"><i class="fab fa-whatsapp"></i> Hubungi Admin</a>&nbsp;
 					</div>
 				<div class="flex-m p-t-10">
 					<a onclick="fbq('track','Contact')" href="<?=$set->facebook?>" style="color: #2980b9;" class="fs-32 color1 p-r-20 fab fa-facebook-square"></a>
@@ -180,7 +180,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<h5 class="modal-title text-primary font-medium"><i class="fa fa-comments"></i> Chat</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<button type="button" class="close btn-primary" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>

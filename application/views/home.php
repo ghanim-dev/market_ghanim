@@ -201,7 +201,7 @@
 
 		</div>
 		<div class="t-center m-t-20">
-			<a href="<?=site_url("shop")?>" class="btn btn-lg btn-gold">Lihat Semua Produk <i class="fas fa-chevron-circle-right"></i></a>
+			<a href="<?=site_url("shop")?>" class="btn btn-lg btn-primary">Lihat Semua Produk <i class="fas fa-chevron-circle-right"></i></a>
 		</div>
 	</section>
 
@@ -286,7 +286,7 @@
 			?>
 		</div>
 		<div class="t-center m-t-20 m-b-30">
-			<a href="<?=site_url("blog")?>" class="btn btn-lg btn-gold">Lihat Semua Postingan <i class="fas fa-chevron-circle-right"></i></a>
+			<a href="<?=site_url("blog")?>" class="btn btn-lg btn-primary">Lihat Semua Postingan <i class="fas fa-chevron-circle-right"></i></a>
 		</div>
 	</div>
 
