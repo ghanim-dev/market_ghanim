@@ -289,7 +289,8 @@ button{
     -webkit-text-fill-color: transparent;
 }
 .search-product{
-    border: 2px solid #EEC938;
+    border: 2px solid #0D8BF2;
+    /* border-color: linear-gradient(109.5deg, #0D8BF2 11.2%, #30D5EE 91.1%); */
     padding: 18px 32px;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
@@ -414,7 +415,8 @@ button{
 .pagination .item.active,
 .pagination .item:hover{
     /* background-image: linear-gradient( 0deg,   rgb(0, 150, 163) 0%,   rgb(0, 150, 163) 100% ); */
-    background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%);
+    /* background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%); */
+    background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(104, 12, 174) 90%);
     text-decoration: none;
 }
 
@@ -489,10 +491,12 @@ a.text-primary{
     -webkit-text-fill-color: transparent;
 }
 .btn-success{
-    background-image: linear-gradient(90.9deg, #33CC33 0.5%, #4CAF50 99.7%);
+    /* background-image: linear-gradient(90.9deg, #33CC33 0.5%, #4CAF50 99.7%); */
+     /* background: linear-gradient(91.9deg, #0D8BF2 0.5%, #03C8dA 99.7%); */
+     background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(104, 12, 174) 90%);
 }
 .badge-success, .bg-success, .hov-success:hover, .btn-success:hover{
-    background-image: linear-gradient(91.9deg,  #3fad3f 0.5%, #49884b 99.7%);
+    background-image: linear-gradient(91.9deg, #0d8bf26f 0%, rgba(104, 12, 174, 0.536) 90%);
 }
 a.text-success:hover, .text-hov-success:hover, .text-success{
     /* background: linear-gradient(91.9deg, #0D8BF2 0.5%, #03C8dA 99.7%); */
@@ -546,11 +550,12 @@ a.text-warning,.item-rating:hover{
     -webkit-text-fill-color: transparent;
 }
 .btn-info{
-    /* background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(3, 200, 218) 90%); */
-    background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%);
+    background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(3, 200, 218) 90%);
+    /* background-image: linear-gradient(109.5deg, #eec938 20.2%, #8b742c 91.1%); */
 }
 .badge-info, .bg-info, .hov-info:hover, .btn-info:hover{
-    background-image: linear-gradient( 91.9deg,  #33CC33 0.5%, #4CAF50 99.7%);
+    background-image: linear-gradient(91.9deg, #0D8BF2 0%, rgb(104, 12, 174) 90%);
+    /* background-image: linear-gradient( 91.9deg,  #33CC33 0.5%, #4CAF50 99.7%); */
 }
 a.text-info:hover, .text-hov-info:hover, .text-info{
     background: linear-gradient( 91.9deg,  rgb(0, 150, 163) 0%, rgb(25, 201, 218) 90% );
