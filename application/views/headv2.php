@@ -179,11 +179,11 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 						</li>
 						<?php if($this->func->cekLogin() == true){ ?>
 							<li class="nav-item">
-								<a class="nav-link" href="<?=site_url('manage/pesanan')?>"><i class="fas fa-box text-primary"></i> Pesananku</a>
+								<a class="nav-link" href="<?=site_url('manage/pesanan')?>"><i class="fas fa-box"></i> Pesananku</a>
 							</li>
 							<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="javascript:void(0)" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-									<i class="fas fa-user-circle text-primary"></i> Akun
+									<i class="fas fa-user-circle"></i> Akun
 								</a>
 								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 									<a class="dropdown-item" href="<?=site_url("manage")?>">Pengaturan</a>
@@ -202,12 +202,12 @@ foreach($keyw->result() as $key){ $keywords .= ",".$key->nama; }
 						<?php }else{ ?>
 							<li class="nav-item m-r--20">
 								<a class="nav-link" href="<?=site_url('home/keranjang')?>">
-									<i class="fas fa-shopping-basket text-primary"></i> <b class="badge badge-danger p-lr-8"><?=$this->func->getKeranjang()?></b>
+									<i class="fas fa-shopping-basket"></i> <b class="badge badge-danger p-lr-8"><?=$this->func->getKeranjang()?></b>
 								</a>
 							</li>
 							<li class="nav-item p-all-0">
 								<a class="nav-link" href="<?=site_url('home/wishlist')?>">
-									<i class="fas fa-heart text-primary"></i> <b class="badge badge-danger p-lr-8 wishlistcount"><?=$this->func->getWishlistCount()?></b>
+									<i class="fas fa-heart"></i> <b class="badge badge-danger p-lr-8 wishlistcount"><?=$this->func->getWishlistCount()?></b>
 								</a>
 							</li>
 						<?php } ?>
