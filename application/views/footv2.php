@@ -107,9 +107,10 @@
 		</div>
 
 		<div class="t-center p-l-15 p-r-15">
-			<div class="t-center p-t-20">
+			<div class="t-center p-t-20 text-dark">
 				<!-- Copyright © <?=date('Y');?> <?=ucwords(strtolower($set->nama))?> -->
-				Copyright © <?=date('Y');?> &nbsp; <a href="<?= base_url('page/Tentang-Kami'); ?>">PT. GHANIM SUKSES SENTOSA</a>
+				<!-- Copyright © <?=date('Y');?> &nbsp; <a href="<?= base_url('page/Tentang-Kami'); ?>">PT. GHANIM SUKSES SENTOSA</a> -->
+				Copyright © <?=date('Y');?> &nbsp; <a href="https://ghanim.co.id" target="_blank">PT. GHANIM SUKSES SENTOSA</a>
 				<?php if($this->func->demo() == true){ ?> | made with <i class="fas fa-heart text-danger"></i> by Masbil</a><?php } ?>
 			</div>
 		</div>

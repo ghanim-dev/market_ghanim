@@ -18,6 +18,10 @@
     font-family: poppins-black;
     src: url('../webfonts/poppins/Poppins-Black.ttf');
 }
+@font-face {
+    font-family: poppins-regular;
+    src: url('../webfonts/poppins/Poppins-Regular.ttf');
+}
 
 body{
     font-family: "poppins","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -432,7 +436,7 @@ button{
 }
 .navbar-nav .nav-item{
     padding: 0px 8px;
-    font-family: poppins-medium;
+    font-family: poppins-regular;
     font-size: 17.5px;
     position: relative;
     align-items: center;
@@ -442,7 +446,8 @@ button{
     color: #dbddd8;
 }
 .dropdown-item:hover{
-    background:#EEC938;
+    background:#000000;
+    color: #FFFFFF;
 }
 .navbar-nav .nav-item .fa-heart,
 .navbar-nav .nav-item .fa-shopping-basket{
