@@ -26,7 +26,7 @@ class Config
      * 
      * @static
      */
-    public static $isProduction = false;
+    public static $isProduction = true;
     /**
      * Set it true to enable 3D Secure by default
      * 
