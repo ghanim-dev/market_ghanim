@@ -1944,7 +1944,8 @@ class Assync extends CI_Controller {
 
 			$curl = curl_init();
 			curl_setopt_array($curl, array(
-			CURLOPT_URL => "https://pro.rajaongkir.com/api/waybill",
+			// CURLOPT_URL => "https://pro.rajaongkir.com/api/waybill",
+			CURLOPT_URL => "https://api.rajaongkir.com/starter/waybill",
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_ENCODING => "",
 			CURLOPT_MAXREDIRS => 10,
@@ -2206,7 +2207,8 @@ class Assync extends CI_Controller {
 
 				$curl = curl_init();
 				curl_setopt_array($curl, array(
-				  CURLOPT_URL => "https://pro.rajaongkir.com/api/cost",
+				//   CURLOPT_URL => "https://pro.rajaongkir.com/api/cost",
+				  CURLOPT_URL => "https://api.rajaongkir.com/starter/cost",
 				  CURLOPT_RETURNTRANSFER => true,
 				  CURLOPT_ENCODING => "",
 				  CURLOPT_MAXREDIRS => 10,
@@ -2337,7 +2339,7 @@ class Assync extends CI_Controller {
 
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-			CURLOPT_URL => "https://pro.rajaongkir.com/api/cost",
+			CURLOPT_URL => "/cost",
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_ENCODING => "",
 			CURLOPT_MAXREDIRS => 10,
@@ -2365,7 +2367,8 @@ class Assync extends CI_Controller {
 	function cekresponongkir(){
 		$curl = curl_init();
 		curl_setopt_array($curl, array(
-			CURLOPT_URL => "https://pro.rajaongkir.com/api/cost",
+			// CURLOPT_URL => "https://pro.rajaongkir.com/api/cost",
+			CURLOPT_URL => "https://api.rajaongkir.com/starter/cost",
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_ENCODING => "",
 			CURLOPT_MAXREDIRS => 10,
